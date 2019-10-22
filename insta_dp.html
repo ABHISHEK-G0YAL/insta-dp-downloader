@@ -4,8 +4,9 @@
     <script src="insta_dp.js"></script>
 </head>
 <body>
-    <label for="usernames">Usernames: </label>
-    <input type="text" id="usernames" name="usernames"><br>
-    <button type="download" onclick="downloadBlobs(document.body.children.namedItem('usernames').value);">downlaod</button>
+    <h1>Insta DP Downloader</h1>
+    <label for="usernames">Enter single space seperated usernames: </label><br>
+    <textarea rows="12" cols="120" name="usernames"></textarea><br>
+    <button type="download" onclick="downloadBlobs(document.body.children.namedItem('usernames').value);">Download</button>
 </body>
 </html>
